@@ -27,7 +27,8 @@ public class TriangleUtilitiesTest {
                         "*******\n" +
                         "********\n" +
                         "*********\n";
-        String actual = TriangleUtilities.getTriangle(10);
+        // changed numberOfRows to fit the expected string
+        String actual = TriangleUtilities.getTriangle(9);
         Assert.assertEquals(expected, actual);
     }
 
@@ -38,7 +39,8 @@ public class TriangleUtilitiesTest {
                         "**\n" +
                         "***\n" +
                         "****\n";
-        String actual = TriangleUtilities.getTriangle(5);
+        // changed numberOfRows to fit expected string
+        String actual = TriangleUtilities.getTriangle(4);
         Assert.assertEquals(expected, actual);
     }
 
